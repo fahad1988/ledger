@@ -25,12 +25,14 @@ A simple RESTful ledger service built with Spring Boot that allows you to track 
 2. Build the application with Maven
 ```bash
 mvn clean install
-mvn spring-boot:run
 ```
 
 ## Running the Application
 
 Start the application using Maven or as a JAR file. The application will start on `http://localhost:8080` by default.
+```bash
+mvn spring-boot:run
+```
 
 ## API Endpoints
 
